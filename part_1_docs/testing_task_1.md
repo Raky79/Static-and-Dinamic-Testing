@@ -39,6 +39,6 @@ def cards_total(self, cards):
   total                      # instead of just total, should be "total = 0" 
   for card in cards:
     total += card.value
-    return "You have a total of" + total    # the indentation on this line is wrong, should be indented to the left
+    return "You have a total of" + total    # the indentation on this line is wrong, the format is also wrong, total should be injected ,(f"You have a total of {total}")  
   
 ```
